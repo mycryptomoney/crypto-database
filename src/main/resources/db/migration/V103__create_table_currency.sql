@@ -2,5 +2,8 @@ CREATE TABLE currency (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     name VARCHAR(100) UNIQUE NOT NULL,
     abbreviation VARCHAR(10) UNIQUE NOT NULL,
-    value REAL NOT NULL
+    value NUMERIC(19,2) NOT NULL,
+    capitalisation NUMERIC(19,2) NOT NULL,
+    activated BOOLEAN NOT NULL,
+    image BYTEA
 );
