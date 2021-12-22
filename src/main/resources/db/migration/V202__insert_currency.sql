@@ -2,3 +2,9 @@ INSERT INTO currency (name, abbreviation, value, capitalisation, activated) VALU
 INSERT INTO currency (name, abbreviation, value, capitalisation, activated) VALUES ('Euro', 'EUR', 1.2, 1000000, false);
 INSERT INTO currency (name, abbreviation, value, capitalisation, activated) VALUES ('Bitcoin', 'BTC', 60000, 1000000, true);
 INSERT INTO currency (name, abbreviation, value, capitalisation, activated) VALUES ('Ethereum', 'ETH', 5000, 1000000, true);
+INSERT INTO currency (name, abbreviation, value, capitalisation, activated) VALUES ('Binance Coin', 'BNB', 5000, 1000000, true);
+INSERT INTO currency (name, abbreviation, value, capitalisation, activated) VALUES ('Solana', 'SOL', 5000, 1000000, true);
+INSERT INTO currency (name, abbreviation, value, capitalisation, activated) VALUES ('Cardano', 'USDC', 5000, 1000000, true);
+INSERT INTO currency (name, abbreviation, value, capitalisation, activated) VALUES ('Ripple', 'XRP', 5000, 1000000, true);
+INSERT INTO currency (name, abbreviation, value, capitalisation, activated) VALUES ('Dogecoin', 'DOGE', 5000, 1000000, true);
+INSERT INTO currency (name, abbreviation, value, capitalisation, activated) VALUES ('SHIBA INU', 'SHIB', 5000, 1000000, true);
